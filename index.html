@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikhilesh kantae</title>
+
+    <!-- css -->
+
+    <link rel="stylesheet" href="./index.css">
+
+    <!-- fonts -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Libre Barcode 39' rel='stylesheet'>
+    <link href="https://fonts.cdnfonts.com/css/southam-demo" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- <i class="fa-brands fa-github"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-linkedin-in"></i> -->
+
+    <!-- <p class="scroll"> scroll </p> -->
+    <div id="cursor" class="cursor"></div>
+
+    <div id="pageContainer">
+        <div class="navbar">
+            <a href="#homepage" class="logo fadeout"> NK </a>
+            <a href="#homepage" class="log fadeout2"> NK </a>
+            <a id="empty" class="navItem"></a>
+            <a id="works" class="navItem" href="#workspage"> Works </a>
+            <a id="about" class="navItem" href="#aboutpage"> About </a>
+            <a id="contact" class="navItem" href="#contactpage"> Contact </a>
+            <i class="fa fa-bars"></i>
+            <ul class="menudropdown">
+               <a id="works" class="s1" href="#workspage"> Works </a>
+                <a id="about" class="s2" href="#aboutpage"> About </a>
+                <a id="contact" class=" s3" href="#contactpage"> Contact </a>
+                <p onclick=" window.open('https://drive.google.com/file/d/1R5n52MbwkVYSj2GEP8_UGoABoQBzy_oI/view?usp=sharing')"
+                id="drop-resume"> Resume </p>
+            </ul>
+            <p onclick=" window.open('https://drive.google.com/file/d/1R5n52MbwkVYSj2GEP8_UGoABoQBzy_oI/view?usp=sharing')"
+                id="resume"> Resume </p>
+        </div>
+
+        <section id="homepage" class="rightcontainer">
+            <div class="textbox">
+                <p class="hitext">
+                    Hi, My name is
+                </p>
+                <h1 class="name">
+                    Kantae <br>
+                    Nikhilesh.
+                </h1>
+                <!-- <h2 class="build">
+                    I build websites and apps that helps you gorw your business.
+                </h2> -->
+                <p class="description">
+                    I'm a software engineer specializing
+                    in <span>front end devolopment.</span>
+                    Have good experience in CSS libraries, Vanilla JS, React JS, NodeJS, MongoDb and the likes.
+                </p>
+            </div>
+            <div class="cirleText">
+                <svg id="rotatingText" viewBox="0 0 200 200" width="450" height="450">
+                    <defs>
+                        <path id="circle" d="M 100, 100
+                              m -75, 0
+                              a 75, 75 0 1, 0 150, 0
+                              a 75, 75 0 1, 0 -150, 0
+                              ">
+                        </path>
+                    </defs>
+                    <text width="400">
+                        <textPath alignment-baseline="top" xlink:href="#circle" class="text">
+                            Developer - Designer - Entrepreneur -
+                        </textPath>
+                    </text>
+                </svg>
+                <!-- <button class="svgBtn">
+                    Hire <br> Me !!!
+                  </button> -->
+                <img class="coffeeMug" src="./assets/img/mug.png" alt="">
+            </div>
+        </section>
+        <section id="workspage" class="bottomcontainer">
+
+            <h3 class="projtext">Works</h3>
+            <p class="some">
+                As a frontend developer, I'm like the digital magician who turns design
+                dreams into interactive realities. I play with HTML, CSS, and JavaScript
+                like they're my favorite tools in a creative toolbox, weaving them together
+                to make websites and apps come alive. I've got a knack for adding that extra
+                flair, making sure everything looks cool and works like a charm. My creative
+                mojo kicks in when I cook up funky UI/UX ideas that not only dazzle users but
+                also boost brand vibes. So, if you need a tech-savvy artist to jazz up your digital
+                world, I'm your go-to frontend wizard!
+            </p>
+            <div class="projects">
+
+                <div class="projectcard">
+                    <img src="./assets/img/biztron.png" alt="" class="pimg">
+                    <div class="pdescription">
+                        <h4 class="title"> Biztron Softtech </h4>
+                        <p class="matter">
+                            An interactive website developed for a consultency company.
+                        </p>
+                        <!-- https://biztron-af3ef.web.app/ -->
+                        <div class="codelink">
+                            <i class="fa-brands fa-square-github"></i>
+                            <a href="https://biztron-af3ef.web.app/" target="_blank" class="fa-solid fa-up-right-from-square"></a>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="projectcard">
+                    <img src="./assets/img/omniverce.png" alt="" class="pimg">
+                    <div class="pdescription">
+                        <h4 class="title"> Omniverce </h4>
+                        <p class="matter">
+                            A company profile website offers a comprehensive overview of a business.
+
+                        </p>
+                        <div class="codelink">
+                            <i class="fa-brands fa-square-github"></i>
+                            <a href="http://google.com" target="_blank" class="fa-solid fa-up-right-from-square"></a>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="projectcard">
+                    <img src="./assets/img/investment calculator.png" alt="" class="pimg">
+                    <div class="pdescription">
+                        <h4 class="title"> Investment Calculator </h4>
+                        <p class="matter">
+                            A web App which calculates your savings with intrest for a certain period of time.
+                        </p>
+                        <div class="codelink">
+                            <i class="fa-brands fa-square-github"></i>
+                            <a href="http://google.com" target="_blank" class="fa-solid fa-up-right-from-square"></a>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="projectcard">
+                    <img src="./assets/img/to-do list.png" alt="" class="pimg">
+                    <div class="pdescription">
+                        <h4 class="title"> To-do List </h4>
+                        <p class="matter">
+                            Add tasks to be done on a daily basis and keep a track on it.
+                        </p>
+                        <div class="codelink">
+                            <i class="fa-brands fa-square-github"></i>
+                            <i class="fa-solid fa-up-right-from-square"></i>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="projectcard">
+                    <img src="./assets/img/image editor.png" alt="" class="pimg">
+                    <div class="pdescription">
+                        <h4 class="title"> Image Editor</h4>
+                        <p class="matter">
+                            Basic image editing tool which can perform editing
+                            to the uploaded image and enhance it.
+                        </p>
+                        <div class="codelink">
+                            <i class="fa-brands fa-square-github"></i>
+                            <i class="fa-solid fa-up-right-from-square"></i>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="projectcard">
+                    <img src="./assets/img/dice game.png" alt="" class="pimg">
+                    <div class="pdescription">
+                        <h4 class="title"> Dice Game </h4>
+                        <p class="matter">
+                            Small engaging game between two players.
+                            Roll the dice, hold the score, make it 100 and win!
+                        </p>
+                        <div class="codelink">
+                            <i class="fa-brands fa-square-github"></i>
+                            <a href="http://google.com" target="_blank" class="fa-solid fa-up-right-from-square"></a>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+
+        <section id="aboutpage" class="aboutcontainer">
+            <!-- <h2 class="abouttext">
+                About
+            </h2> -->
+            <div class="aboutdetails">
+                <div class="textdiv">
+                    <p class="bigtext">
+
+                        Little more
+                        <!-- intresting things  -->
+                        about me.
+                    </p>
+                    <div class="aboutcontent">
+                        <p class="personaldetails">
+                            Back in 2015, i have graduated with computer science degree.
+                            I have managed construction and fabrication business for many years and gained a good
+                            experience.
+                            My intrest in web devolpment started in 2019,
+                            I specialize in front-end development, crafting visually engaging and user-friendly
+                            interfaces.
+
+                            <br>
+                            <br>
+                            <br>
+
+                            (2020 - 2021) I have done my internship in full-stack development 
+                            in a stratup company based in hederabad (INDIA), 
+                            I gained valuable hands-on experience in designing, building, 
+                            and deploying web applications. I collaborated with cross-functional teams, 
+                            honed my programming skills, and contributed to the development 
+                            of user-friendly and efficient software solutions, 
+                            enhancing my proficiency in both front-end and back-end technologies.
+
+                            <br>
+                            <br>
+                            <br>
+
+                            (2021 - Present) I have done freelancing, I've honed my skills and expertise
+                            across various domains. I've collaborated with diverse clients,
+                            delivering web development, App development.
+                            This journey has equipped me with adaptability, effective communication,
+                            and the ability to consistently meet and exceed client expectations.
+                            My freelancing experience has been a rewarding blend of
+                            professional growth and client satisfaction.
+                        </p>
+                        <button href="#contactpage" class="contactme"> Contact me. </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <section id="contactpage" class="contactinfo">
+            <h2 class="contacttext">
+                Send me a message!
+            </h2>
+            <p> Got a question or proposal, or just want to say hello? Go ahead</p>
+
+            <form onsubmit=sendEmail() ; reset() ; return false class="form">
+                <div class="inputform">
+                    <div class="namefeild">
+                        <!-- <lable class="l">Your Name</lable> -->
+                        <input class="qname" type="text" placeholder="Enter your name ">
+                    </div>
+                    <div class="emailfeild">
+                        <!-- <lable class="l">Email Address</lable> -->
+                        <input class="email" type="text" placeholder="Enter your email address ">
+                    </div>
+                    <div class="messagefeild">
+                        <!-- <lable class="l">Your Message</lable> -->
+                        <textarea class="inputmessage" rows="5" cols="60" type="text"
+                            placeholder="Enter your message  "></textarea>
+                    </div>
+                </div>
+                <!-- <input  class="submit" type="submit"> -->
+                <button class="submit" type="submit">Submit</button>
+            </form>
+            <!-- <button class="submit" type="submit">Submit</button> -->
+
+        </section>
+
+
+
+    </div>
+
+    <script src="./index.js"></script>
+    <script src=" https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+
+
+    </script>
+</body>
+
+</html>
