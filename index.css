@@ -117,7 +117,7 @@ html{
 } */
 
 #pageContainer {
-    width: 100vw;
+    width: 100%;
     height: auto;
     padding: 0px;
     margin: 0px;
@@ -826,6 +826,9 @@ input{
   
         
     }
+    .rightcontainer {
+        width: 100%;
+    }
 }
 
 @media  (max-width: 600px) {
@@ -847,6 +850,9 @@ input{
     }
     #drop-resume{
         padding: 8px 10px;
+    }
+    .rightcontainer {
+        width: 100% !important;
     }
 
 .cirleText {
@@ -915,6 +921,7 @@ input{
         margin-top: 5%;
         padding-left: 30px;   
     }
+   
     
     
     .matter{
@@ -1062,7 +1069,10 @@ input{
     .personaldetails{
         width: 80% !important;
     }
-    
+    h3{
+        margin-top: -25%;
+    }
+   
     
 
 }
@@ -1112,7 +1122,7 @@ input{
         background: linear-gradient(45deg, #097bdf, #aec7dd);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        margin-top:-90%;
+        margin-top:35% !important;
       }
     .projects{
         margin-left: 5%;
